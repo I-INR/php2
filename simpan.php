@@ -7,7 +7,8 @@
     $gambar_buku = $_POST['gambar_buku'];
 
 
-    $sql = "INSERT tabel_buku(judul_buku, penulis, jenis_buku, gambar_buku) Values ('$judul_buku', '$penulis', '$jenis_buku', '$gambar_buku')";
+    $sql = "INSERT tabel_buku(judul_buku, penulis, jenis_buku, gambar_buku) 
+        Values('$judul_buku', '$penulis', '$jenis_buku', '$gambar_buku')";
     if($conn->query($sql) === TRUE){
         echo "<h1 style='text-align: center;'>DATA BERHASIL DISIMPAN</h1><br>";
         echo "<p style='text-align: center;'><a href='tampil2.php'>kembali</a></p><br>";
