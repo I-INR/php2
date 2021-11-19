@@ -28,4 +28,3 @@
         echo "<p style='text-align: center;'><a href='tampil2.php'>kembali</a></p><br>";
 
     $conn->close();
-?>
