@@ -38,5 +38,5 @@
                 </tr>
             </table>
             </form>";
-    $conn->close();
+    $conn->close(); 
 ?>
