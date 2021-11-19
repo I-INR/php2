@@ -7,7 +7,8 @@
     $gambar_buku = $_POST['gambar_buku'];
 
 
-    $sql = "UPDATE tabel_buku set judul_buku='$judul_buku', penulis='$penulis', jenis_buku='$jenis_buku', gambar_buku='$gambar_buku' where id_buku='$id'";
+    $sql = "UPDATE tabel_buku set judul_buku='$judul_buku', 
+        penulis='$penulis', jenis_buku='$jenis_buku', gambar_buku='$gambar_buku' where id_buku='$id'";
     if($conn->query($sql) === True){
         echo "<h1 style='text-align: center;'>DATA BERHASIL DIUBAH</h1><br>";
         echo "<p style='text-align: center;'><a href='tampil2.php'>kembali</a></p><br>";
